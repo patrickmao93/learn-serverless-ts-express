@@ -1,0 +1,25 @@
+{
+  "name": "learn-serverless-ts",
+  "version": "1.0.0",
+  "description": "Serverless webpack example using Typescript",
+  "main": "handler.js",
+  "scripts": {
+    "start": "sls offline start",
+    "deploy": "sls deploy",
+    "deploy:prod": "sls deploy --stage prod"
+  },
+  "dependencies": {
+    "@types/aws-serverless-express": "^3.3.1",
+    "aws-serverless-express": "^3.3.6",
+    "source-map-support": "^0.5.10"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.17",
+    "@types/node": "^10.12.18",
+    "serverless-webpack": "^5.2.0",
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.2.4",
+    "webpack": "^4.29.0"
+  },
+  "author": "Celer Network"
+}
